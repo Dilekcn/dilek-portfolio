@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-import Logo from '../assets/logoo.jpg';
+import Logo from '../assets/logo.jpg';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#372948] text-[#ccd6f6]'>
       <div>
-        <img src={Logo} alt='Logo Image' style={{ width: '50px' }} />
+        <img src={Logo} alt='Logo Image' style={{ width: '50px', height:'50px', borderRadius:'50%' }} />
       </div>
 
       {/* menu */}
