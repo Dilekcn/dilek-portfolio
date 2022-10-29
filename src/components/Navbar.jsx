@@ -7,6 +7,7 @@ import {
   FaFacebook,
   FaLinkedinIn,
 } from 'react-icons/fa';
+import {SiCodewars } from 'react-icons/si';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Logo from '../assets/dc1.png';
@@ -17,7 +18,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#372948] text-[#ccd6f6]'>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-6 bg-[#372948] text-[#ccd6f6]'>
       <div>
         <img src={Logo} alt='Logo Image' style={{ width: '50px', height:'50px', borderRadius:'50%' }} />
       </div>
@@ -69,13 +70,7 @@ const Navbar = () => {
             Home
           </Link>
         </li>
-        <li className='py-6 text-4xl'>
-          {' '}
-          <Link onClick={handleClick} to='about' smooth={true} duration={500}>
-            About
-          </Link>
-        </li>
-        <li className='py-6 text-4xl'>
+                <li className='py-6 text-4xl'>
           {' '}
           <Link onClick={handleClick} to='skills' smooth={true} duration={500}>
             Skills
@@ -114,12 +109,12 @@ const Navbar = () => {
                <FaGithub size={30} />Github
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-15px] duration-300 bg-[#6fc2b0]'>
+          <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-15px] duration-300 bg-[#FB3640]'>
             <a
               className='flex justify-between items-center w-full text-gray-300'
-              href='/'
+              href='https://www.codewars.com/users/Dilekcn'
             >
-              <HiOutlineMail size={30} /> Email
+              <SiCodewars size={30} /> Codewars
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center mr-[-100px] hover:ml-[-15px] duration-300 bg-[#565f69]'>

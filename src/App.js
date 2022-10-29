@@ -1,3 +1,4 @@
+import ContactMe from "./components/ContactMe";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
 import Skills from "./components/Skills.jsx"
@@ -11,7 +12,8 @@ function App() {
       <Home/>
       <Skills/>
       <Work/>
-      <h1 className='text-2xl'>Hello </h1>
+      <ContactMe/>
+     
     </div>
   );
 }

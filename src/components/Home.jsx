@@ -20,14 +20,7 @@ const Home = () => {
           I’m a full-stack developer. Currently, I’m focused on
           building responsive full-stack web applications.
         </p>
-        <div>
-          <button className='text-[#ccd6f6] border-[#ccd6f6] group border-2 px-6 py-3 my-2 flex items-center hover:bg-[#B61919] hover:border-[#B61919]'>
-            View Work
-            <span className='group-hover:rotate-90 duration-300'>
-              <HiArrowNarrowRight className='ml-3 ' />
-            </span>
-          </button>
-        </div>
+       
       </div>
     </div>
   );
